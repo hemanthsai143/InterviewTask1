@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="27.784">
+<testcase classname="Google search" name="Verify required information is displayed as the first result in the browser after a google search" time="27.219">
+<system-out><![CDATA[Given user launches the browser with base url...............................passed
+When user search with "Clarivate Analytics".................................passed
+Then verify "clarivate.com" displayed as the first search result............passed
+]]></system-out>
+</testcase>
+</testsuite>

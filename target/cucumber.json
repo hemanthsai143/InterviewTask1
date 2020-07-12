@@ -1,0 +1,99 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-12T11:01:32.398Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13849000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Stepdefinitions.initServices()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verify required information is displayed as the first result in the browser after a google search",
+        "description": "",
+        "id": "google-search;verify-required-information-is-displayed-as-the-first-result-in-the-browser-after-a-google-search;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3681000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Stepdefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5419000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launches the browser with base url",
+            "match": {
+              "location": "stepdefinitions.Stepdefinitions.launchBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3852000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user search with \"Clarivate Analytics\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Clarivate Analytics\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.Stepdefinitions.googleSearch(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 180000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify \"clarivate.com\" displayed as the first search result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"clarivate.com\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stepdefinitions.Stepdefinitions.verifySearchResult(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Google search",
+    "description": "",
+    "id": "google-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/features/GoogleSearchEngine.feature",
+    "tags": []
+  }
+]

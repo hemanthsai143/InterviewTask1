@@ -1,0 +1,11 @@
+11:44:54.595 [main] INFO  stepdefinitions.Stepdefinitions - Browser closed
+11:50:02.656 [main] INFO  stepdefinitions.Stepdefinitions - ***Chrome driver initiliazed***
+11:50:08.622 [main] INFO  stepdefinitions.Stepdefinitions - **Launches the base url**
+11:50:15.751 [main] INFO  stepdefinitions.Stepdefinitions - Entered Clarivate Analytics in google search box
+11:50:16.337 [main] INFO  stepdefinitions.Stepdefinitions - Browser closed
+12:12:36.748 [main] INFO  stepdefinitions.Stepdefinitions - ***Chrome driver initiliazed***
+12:12:39.902 [main] INFO  stepdefinitions.Stepdefinitions - **Launches the base url**
+12:12:46.233 [main] INFO  stepdefinitions.Stepdefinitions - Entered Clarivate Analytics in google search box
+12:12:46.925 [main] INFO  stepdefinitions.Stepdefinitions - Verified whether clarivate.com is displaying as first search result
+12:12:46.926 [main] INFO  stepdefinitions.Stepdefinitions - Browser closed
+16:28:20.691 [main] INFO  stepdefinitions.Stepdefinitions - ***Chrome driver initiliazed***
